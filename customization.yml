@@ -23,7 +23,7 @@ biomeSpread:
     borderSize: 0.02   # Size of the border biome around the sinkhole
     frequency: 0.0025   # frequency of sinkhole placement. Increase for more smaller sinkholes, decrease for fewer, but larger ones
 
-  mountainFrequency: 0.004  # shared frequence of some larger mountain biomes, allows them to blend easier
+  mountainFrequency: 0.0015  # shared frequence of some larger mountain biomes, allows them to blend easier
 
   canyons:
     minY: 25 # how deep down the canyons will go. This is an absolute Y height. Increase to make the canyons shallower
@@ -46,7 +46,7 @@ global-scale: 1
 terrain-base-y-level: 65
 # Default: 65
 
-terrain-height: 100
+terrain-height: 80
 # Default: 230
 
 terrain-ocean-base-y-level: 60
@@ -86,7 +86,7 @@ spawn-island-elevation-scale: 0.3
 # Continental
 # ---
 
-continental-scale: 0.8
+continental-scale: 1
 # Controls the scale of land / coastal / oceanic distribution. Increasing
 # this produces larger landmasses and larger oceans, and vice-versa when
 # decreasing it.
@@ -114,10 +114,10 @@ elevation-scale: 2
 #        can check out the parameters under the 'Terrain' section.
 # Default: 1
 
-elevation-highlands-threshold: 0.4
+elevation-highlands-threshold: 0.5
 # Default: 0.4
 
-elevation-flatlands-threshold: 0.1
+elevation-flatlands-threshold: 0.2
 # Default: 0.1
 
 # ---
