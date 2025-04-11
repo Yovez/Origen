@@ -105,7 +105,7 @@ continental-coast-threshold: 0.05
 # Elevation
 # ---
 
-elevation-scale: 1
+elevation-scale: 2
 # Controls the scale of the elevation noise map. A larger scale results in larger distances
 # between aspects like mountain ranges and flat areas. If you want more gradual changes in
 # elevation, you can increase this. Conversely, if you want more sudden changes in elevation,
